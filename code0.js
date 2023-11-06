@@ -582,6 +582,8 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 {gdjs.evtTools.camera.showLayer(runtimeScene, "Fade");
+}{gdjs.evtTools.sound.preloadMusic(runtimeScene, "11 - Judging.mp3");
+}{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "11 - Judging.mp3", 0, true, 100, 1);
 }
 { //Subevents
 gdjs.Level1Code.eventsList2(runtimeScene);} //End of subevents
@@ -1137,7 +1139,7 @@ gdjs.Level1Code.GDstar_9595particleObjects6.length = 0;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(8552068);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9501308);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(gdjs.Level1Code.GDcard_9595anemoneObjects5, gdjs.Level1Code.GDcard_9595anemoneObjects6);
@@ -1646,7 +1648,7 @@ for (var i = 0, k = 0, l = gdjs.Level1Code.GDcard_9595snail2Objects4.length;i<l;
 gdjs.Level1Code.GDcard_9595snail2Objects4.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(8539860);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9502572);
 }
 }
 if (isConditionTrue_0) {
@@ -2065,7 +2067,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "show_cards") > 1.5;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(8569748);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9495340);
 }
 }
 if (isConditionTrue_0) {
@@ -2192,7 +2194,7 @@ for (var i = 0, k = 0, l = gdjs.Level1Code.GDcard_9595snail2Objects1.length;i<l;
 gdjs.Level1Code.GDcard_9595snail2Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(8548668);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9505148);
 }
 }
 if (isConditionTrue_0) {
@@ -2219,7 +2221,7 @@ gdjs.Level1Code.eventsList16 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(8570828);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9510740);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(gdjs.Level1Code.GDnewgame_9595buttonObjects2, gdjs.Level1Code.GDnewgame_9595buttonObjects3);
@@ -2261,7 +2263,7 @@ gdjs.Level1Code.eventsList17 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(8550044);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9513092);
 }
 if (isConditionTrue_0) {
 /* Reuse gdjs.Level1Code.GDnewgame_9595buttonObjects1 */
@@ -2280,7 +2282,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(8556348);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9508156);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("newgame"), gdjs.Level1Code.GDnewgameObjects2);
@@ -2428,7 +2430,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.pickedObjectsCount(gdjs.Level1Code.mapOfGDgdjs_9546Level1Code_9546GDcard_95959595blowfishObjects1ObjectsGDgdjs_9546Level1Code_9546GDcard_95959595crabObjects1ObjectsGDgdjs_9546Level1Code_9546GDcard_95959595seahorseObjects1ObjectsGDgdjs_9546Level1Code_9546GDcard_95959595snailObjects1ObjectsGDgdjs_9546Level1Code_9546GDcard_95959595seagrassObjects1ObjectsGDgdjs_9546Level1Code_9546GDcard_95959595coralObjects1ObjectsGDgdjs_9546Level1Code_9546GDcard_95959595anemoneObjects1ObjectsGDgdjs_9546Level1Code_9546GDcard_95959595plasticbagObjects1ObjectsGDgdjs_9546Level1Code_9546GDcard_95959595blowfish2Objects1ObjectsGDgdjs_9546Level1Code_9546GDcard_95959595crab2Objects1ObjectsGDgdjs_9546Level1Code_9546GDcard_95959595seahorse2Objects1ObjectsGDgdjs_9546Level1Code_9546GDcard_95959595snail2Objects1Objects) <= 0;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(8568180);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9514100);
 }
 }
 if (isConditionTrue_0) {
@@ -2438,6 +2440,9 @@ gdjs.copyArray(runtimeScene.getObjects("ui_background"), gdjs.Level1Code.GDui_95
     gdjs.Level1Code.GDui_9595backgroundObjects1[i].setOpacity(0);
 }
 }{gdjs.evtTools.camera.showLayer(runtimeScene, "UI");
+}{gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "timer");
+}{gdjs.evtTools.sound.pauseMusicOnChannel(runtimeScene, 1);
+}{gdjs.evtTools.sound.playSound(runtimeScene, "claps.mp3", false, 100, 1);
 }
 { //Subevents
 gdjs.Level1Code.eventsList20(runtimeScene);} //End of subevents
@@ -2521,6 +2526,8 @@ gdjs.copyArray(runtimeScene.getObjects("WoodHud"), gdjs.Level1Code.GDWoodHudObje
     gdjs.Level1Code.GDJUDUL_9595PETUNJUKObjects1[i].deleteFromScene(runtimeScene);
 }
 }{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "timer");
+}{gdjs.evtTools.sound.pauseMusicOnChannel(runtimeScene, 0);
+}{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "12 - Minigame 1.mp3", 1, true, 50, 1);
 }}
 
 }
@@ -2548,10 +2555,28 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(5)) <= 0;
 if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9333580);
+}
+}
+if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("GAMEOVER_BG"), gdjs.Level1Code.GDGAMEOVER_9595BGObjects1);
 gdjs.copyArray(runtimeScene.getObjects("GAMEOVER_TEXT"), gdjs.Level1Code.GDGAMEOVER_9595TEXTObjects1);
 gdjs.copyArray(runtimeScene.getObjects("PlayAgainButton"), gdjs.Level1Code.GDPlayAgainButtonObjects1);
-{for(var i = 0, len = gdjs.Level1Code.GDGAMEOVER_9595BGObjects1.length ;i < len;++i) {
+gdjs.copyArray(runtimeScene.getObjects("card_anemone"), gdjs.Level1Code.GDcard_9595anemoneObjects1);
+gdjs.copyArray(runtimeScene.getObjects("card_blowfish"), gdjs.Level1Code.GDcard_9595blowfishObjects1);
+gdjs.copyArray(runtimeScene.getObjects("card_blowfish2"), gdjs.Level1Code.GDcard_9595blowfish2Objects1);
+gdjs.copyArray(runtimeScene.getObjects("card_coral"), gdjs.Level1Code.GDcard_9595coralObjects1);
+gdjs.copyArray(runtimeScene.getObjects("card_crab"), gdjs.Level1Code.GDcard_9595crabObjects1);
+gdjs.copyArray(runtimeScene.getObjects("card_crab2"), gdjs.Level1Code.GDcard_9595crab2Objects1);
+gdjs.copyArray(runtimeScene.getObjects("card_plasticbag"), gdjs.Level1Code.GDcard_9595plasticbagObjects1);
+gdjs.copyArray(runtimeScene.getObjects("card_seagrass"), gdjs.Level1Code.GDcard_9595seagrassObjects1);
+gdjs.copyArray(runtimeScene.getObjects("card_seahorse"), gdjs.Level1Code.GDcard_9595seahorseObjects1);
+gdjs.copyArray(runtimeScene.getObjects("card_seahorse2"), gdjs.Level1Code.GDcard_9595seahorse2Objects1);
+gdjs.copyArray(runtimeScene.getObjects("card_snail"), gdjs.Level1Code.GDcard_9595snailObjects1);
+gdjs.copyArray(runtimeScene.getObjects("card_snail2"), gdjs.Level1Code.GDcard_9595snail2Objects1);
+{gdjs.evtTools.sound.playSound(runtimeScene, "gameover.mp3", false, 100, 1);
+}{for(var i = 0, len = gdjs.Level1Code.GDGAMEOVER_9595BGObjects1.length ;i < len;++i) {
     gdjs.Level1Code.GDGAMEOVER_9595BGObjects1[i].getBehavior("Tween").addObjectPositionYTween2("gameover", 0, "easeOutQuad", 1, false);
 }
 }{for(var i = 0, len = gdjs.Level1Code.GDGAMEOVER_9595TEXTObjects1.length ;i < len;++i) {
@@ -2561,6 +2586,43 @@ gdjs.copyArray(runtimeScene.getObjects("PlayAgainButton"), gdjs.Level1Code.GDPla
     gdjs.Level1Code.GDPlayAgainButtonObjects1[i].getBehavior("Tween").addObjectPositionYTween2("gameover", 400, "easeOutQuad", 1, false);
 }
 }{gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "timer");
+}{gdjs.evtTools.sound.pauseMusicOnChannel(runtimeScene, 1);
+}{for(var i = 0, len = gdjs.Level1Code.GDcard_9595blowfishObjects1.length ;i < len;++i) {
+    gdjs.Level1Code.GDcard_9595blowfishObjects1[i].setPosition(-(20),-(20));
+}
+for(var i = 0, len = gdjs.Level1Code.GDcard_9595crabObjects1.length ;i < len;++i) {
+    gdjs.Level1Code.GDcard_9595crabObjects1[i].setPosition(-(20),-(20));
+}
+for(var i = 0, len = gdjs.Level1Code.GDcard_9595seahorseObjects1.length ;i < len;++i) {
+    gdjs.Level1Code.GDcard_9595seahorseObjects1[i].setPosition(-(20),-(20));
+}
+for(var i = 0, len = gdjs.Level1Code.GDcard_9595snailObjects1.length ;i < len;++i) {
+    gdjs.Level1Code.GDcard_9595snailObjects1[i].setPosition(-(20),-(20));
+}
+for(var i = 0, len = gdjs.Level1Code.GDcard_9595seagrassObjects1.length ;i < len;++i) {
+    gdjs.Level1Code.GDcard_9595seagrassObjects1[i].setPosition(-(20),-(20));
+}
+for(var i = 0, len = gdjs.Level1Code.GDcard_9595coralObjects1.length ;i < len;++i) {
+    gdjs.Level1Code.GDcard_9595coralObjects1[i].setPosition(-(20),-(20));
+}
+for(var i = 0, len = gdjs.Level1Code.GDcard_9595anemoneObjects1.length ;i < len;++i) {
+    gdjs.Level1Code.GDcard_9595anemoneObjects1[i].setPosition(-(20),-(20));
+}
+for(var i = 0, len = gdjs.Level1Code.GDcard_9595plasticbagObjects1.length ;i < len;++i) {
+    gdjs.Level1Code.GDcard_9595plasticbagObjects1[i].setPosition(-(20),-(20));
+}
+for(var i = 0, len = gdjs.Level1Code.GDcard_9595blowfish2Objects1.length ;i < len;++i) {
+    gdjs.Level1Code.GDcard_9595blowfish2Objects1[i].setPosition(-(20),-(20));
+}
+for(var i = 0, len = gdjs.Level1Code.GDcard_9595crab2Objects1.length ;i < len;++i) {
+    gdjs.Level1Code.GDcard_9595crab2Objects1[i].setPosition(-(20),-(20));
+}
+for(var i = 0, len = gdjs.Level1Code.GDcard_9595seahorse2Objects1.length ;i < len;++i) {
+    gdjs.Level1Code.GDcard_9595seahorse2Objects1[i].setPosition(-(20),-(20));
+}
+for(var i = 0, len = gdjs.Level1Code.GDcard_9595snail2Objects1.length ;i < len;++i) {
+    gdjs.Level1Code.GDcard_9595snail2Objects1[i].setPosition(-(20),-(20));
+}
 }}
 
 }
