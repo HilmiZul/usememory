@@ -70,7 +70,7 @@ if (isConditionTrue_0) {
 {gdjs.dialogueTree.loadFromJsonFile(runtimeScene, "New dialogue tree");
 }{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "jam");
 }{gdjs.dialogueTree.startFrom("Start");
-}{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "11 - Judging.mp3", 2, false, 100, 1);
+}{gdjs.evtTools.sound.playSound(runtimeScene, "11 - Judging.mp3", false, 100, 1);
 }}
 
 }
@@ -129,7 +129,7 @@ gdjs.copyArray(runtimeScene.getObjects("NameText"), gdjs.DialogCode.GDNameTextOb
     gdjs.DialogCode.GDNameTextObjects1[i].setBBText("Kagami");
 }
 }{for(var i = 0, len = gdjs.DialogCode.GDNameTextObjects1.length ;i < len;++i) {
-    gdjs.DialogCode.GDNameTextObjects1[i].setX(510);
+    gdjs.DialogCode.GDNameTextObjects1[i].setX(520);
 }
 }{for(var i = 0, len = gdjs.DialogCode.GDNameTextObjects1.length ;i < len;++i) {
     gdjs.DialogCode.GDNameTextObjects1[i].setY(424);
@@ -177,8 +177,7 @@ for (var i = 0, k = 0, l = gdjs.DialogCode.GDButtonNextObjects1.length;i<l;++i) 
 }
 gdjs.DialogCode.GDButtonNextObjects1.length = k;
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.stopMusicOnChannel(runtimeScene, 2);
-}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Level1", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Level1", false);
 }}
 
 }

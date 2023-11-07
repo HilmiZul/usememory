@@ -1,0 +1,22 @@
+{
+    "name": "use_32memory",
+    "displayName": "Use Memory",
+    "version": "1.0.0",
+    "description": "Use Memory",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "ecosystem:cordova"
+    ],
+    "author": "PurbaQueen",
+    "devDependencies": {
+        "cordova-plugin-ionic-webview": "5.0.0"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-ionic-webview": {}
+        }
+    }
+}

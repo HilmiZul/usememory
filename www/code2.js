@@ -249,6 +249,7 @@ gdjs.Level1Code.GDPlayAgainButtonObjects6= [];
 gdjs.Level1Code.GDPlayAgainButtonObjects7= [];
 
 
+gdjs.Level1Code.mapOfGDgdjs_9546Level1Code_9546GDNewSpriteObjects2Objects = Hashtable.newFrom({"NewSprite": gdjs.Level1Code.GDNewSpriteObjects2});
 gdjs.Level1Code.mapOfGDgdjs_9546Level1Code_9546GDcard_95959595blowfishObjects4ObjectsGDgdjs_9546Level1Code_9546GDcard_95959595crabObjects4ObjectsGDgdjs_9546Level1Code_9546GDcard_95959595seahorseObjects4ObjectsGDgdjs_9546Level1Code_9546GDcard_95959595snailObjects4ObjectsGDgdjs_9546Level1Code_9546GDcard_95959595seagrassObjects4ObjectsGDgdjs_9546Level1Code_9546GDcard_95959595coralObjects4ObjectsGDgdjs_9546Level1Code_9546GDcard_95959595anemoneObjects4ObjectsGDgdjs_9546Level1Code_9546GDcard_95959595plasticbagObjects4ObjectsGDgdjs_9546Level1Code_9546GDcard_95959595blowfish2Objects4ObjectsGDgdjs_9546Level1Code_9546GDcard_95959595crab2Objects4ObjectsGDgdjs_9546Level1Code_9546GDcard_95959595seahorse2Objects4ObjectsGDgdjs_9546Level1Code_9546GDcard_95959595snail2Objects4Objects = Hashtable.newFrom({"card_blowfish": gdjs.Level1Code.GDcard_9595blowfishObjects4, "card_crab": gdjs.Level1Code.GDcard_9595crabObjects4, "card_seahorse": gdjs.Level1Code.GDcard_9595seahorseObjects4, "card_snail": gdjs.Level1Code.GDcard_9595snailObjects4, "card_seagrass": gdjs.Level1Code.GDcard_9595seagrassObjects4, "card_coral": gdjs.Level1Code.GDcard_9595coralObjects4, "card_anemone": gdjs.Level1Code.GDcard_9595anemoneObjects4, "card_plasticbag": gdjs.Level1Code.GDcard_9595plasticbagObjects4, "card_blowfish2": gdjs.Level1Code.GDcard_9595blowfish2Objects4, "card_crab2": gdjs.Level1Code.GDcard_9595crab2Objects4, "card_seahorse2": gdjs.Level1Code.GDcard_9595seahorse2Objects4, "card_snail2": gdjs.Level1Code.GDcard_9595snail2Objects4});
 gdjs.Level1Code.eventsList0 = function(runtimeScene) {
 
@@ -520,9 +521,16 @@ gdjs.Level1Code.eventsList0(runtimeScene);} //End of subevents
 
 {
 
+gdjs.copyArray(runtimeScene.getObjects("NewSprite"), gdjs.Level1Code.GDNewSpriteObjects2);
 
 let isConditionTrue_0 = false;
-{
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Level1Code.mapOfGDgdjs_9546Level1Code_9546GDNewSpriteObjects2Objects, runtimeScene, true, false);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.hasAnyTouchOrMouseStarted(runtimeScene);
+}
+if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "show_cards");
 }{gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "show_cards");
 }}
@@ -2640,7 +2648,6 @@ isConditionTrue_0 = gdjs.evtTools.input.hasAnyTouchOrMouseStarted(runtimeScene);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Level1", false);
-}{gdjs.evtTools.sound.stopMusicOnChannel(runtimeScene, 1);
 }}
 
 }
