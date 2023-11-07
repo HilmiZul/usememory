@@ -2,7 +2,7 @@
   "name": "Use Memory",
   "short_name": "Use Memory",
   "id": "com.example.pairs",
-  "description": "",
+  "description": "Game mengingat dan memasang kan antara simbol use case dengan namanya",
   "orientation": "landscape",
   "start_url": "./index.html",
   "display": "standalone",
