@@ -1138,7 +1138,7 @@ gdjs.Level1Code.GDstar_9595particleObjects6.length = 0;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9750084);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9750348);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(gdjs.Level1Code.GDcard_9595anemoneObjects5, gdjs.Level1Code.GDcard_9595anemoneObjects6);
@@ -1647,7 +1647,7 @@ for (var i = 0, k = 0, l = gdjs.Level1Code.GDcard_9595snail2Objects4.length;i<l;
 gdjs.Level1Code.GDcard_9595snail2Objects4.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9751204);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9751468);
 }
 }
 if (isConditionTrue_0) {
@@ -2066,7 +2066,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "show_cards") > 1.5;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9744540);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9744804);
 }
 }
 if (isConditionTrue_0) {
@@ -2193,7 +2193,7 @@ for (var i = 0, k = 0, l = gdjs.Level1Code.GDcard_9595snail2Objects1.length;i<l;
 gdjs.Level1Code.GDcard_9595snail2Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9754132);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9754396);
 }
 }
 if (isConditionTrue_0) {
@@ -2220,7 +2220,7 @@ gdjs.Level1Code.eventsList16 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9760476);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9760740);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(gdjs.Level1Code.GDnewgame_9595buttonObjects2, gdjs.Level1Code.GDnewgame_9595buttonObjects3);
@@ -2262,7 +2262,7 @@ gdjs.Level1Code.eventsList17 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9762980);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9763244);
 }
 if (isConditionTrue_0) {
 /* Reuse gdjs.Level1Code.GDnewgame_9595buttonObjects1 */
@@ -2281,7 +2281,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9757196);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9757460);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("newgame"), gdjs.Level1Code.GDnewgameObjects2);
@@ -2429,7 +2429,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.pickedObjectsCount(gdjs.Level1Code.mapOfGDgdjs_9546Level1Code_9546GDcard_95959595blowfishObjects1ObjectsGDgdjs_9546Level1Code_9546GDcard_95959595crabObjects1ObjectsGDgdjs_9546Level1Code_9546GDcard_95959595seahorseObjects1ObjectsGDgdjs_9546Level1Code_9546GDcard_95959595snailObjects1ObjectsGDgdjs_9546Level1Code_9546GDcard_95959595seagrassObjects1ObjectsGDgdjs_9546Level1Code_9546GDcard_95959595coralObjects1ObjectsGDgdjs_9546Level1Code_9546GDcard_95959595anemoneObjects1ObjectsGDgdjs_9546Level1Code_9546GDcard_95959595plasticbagObjects1ObjectsGDgdjs_9546Level1Code_9546GDcard_95959595blowfish2Objects1ObjectsGDgdjs_9546Level1Code_9546GDcard_95959595crab2Objects1ObjectsGDgdjs_9546Level1Code_9546GDcard_95959595seahorse2Objects1ObjectsGDgdjs_9546Level1Code_9546GDcard_95959595snail2Objects1Objects) <= 0;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9764252);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9764516);
 }
 }
 if (isConditionTrue_0) {
@@ -2555,7 +2555,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(5)) <= 0;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9770628);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9770892);
 }
 }
 if (isConditionTrue_0) {

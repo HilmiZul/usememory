@@ -122,14 +122,14 @@ gdjs.copyArray(runtimeScene.getObjects("NameText"), gdjs.DialogCode.GDNameTextOb
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.dialogueTree.isCommandCalled("Kagami");
+isConditionTrue_0 = gdjs.dialogueTree.isCommandCalled("Zul");
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("NameText"), gdjs.DialogCode.GDNameTextObjects1);
 {for(var i = 0, len = gdjs.DialogCode.GDNameTextObjects1.length ;i < len;++i) {
-    gdjs.DialogCode.GDNameTextObjects1[i].setBBText("Kagami");
+    gdjs.DialogCode.GDNameTextObjects1[i].setBBText("Zul");
 }
 }{for(var i = 0, len = gdjs.DialogCode.GDNameTextObjects1.length ;i < len;++i) {
-    gdjs.DialogCode.GDNameTextObjects1[i].setX(510);
+    gdjs.DialogCode.GDNameTextObjects1[i].setX(550);
 }
 }{for(var i = 0, len = gdjs.DialogCode.GDNameTextObjects1.length ;i < len;++i) {
     gdjs.DialogCode.GDNameTextObjects1[i].setY(424);

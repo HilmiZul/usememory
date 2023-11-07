@@ -2,9 +2,9 @@
 	{
 		"title": "Start",
 		"tags": "",
-		"body": "<<Hiiragi>>\nOhayou, Kagami sensei! Genki desuka?\n<<Kagami>>\nOha Hiiragi-san! Genki desu!!\n<<Hiiragi>>\nBagaimana kelas hari ini?\n<<Kagami>>\nHari ini kita akan bermain Game Use Case Memory!\n<<Hiiragi>>\nAyo!!😀\n<<Stop>>\n...........................................",
+		"body": "<<Hiiragi>>\nOhayou, Zul sensei! Genki desuka?\n<<Zul>>\nOha Hiiragi-san! Genki desu!!\n<<Hiiragi>>\nBagaimana kelas hari ini?\n<<Zul>>\nHari ini kita akan bermain Game Use Case Memory!\n<<Hiiragi>>\nAyo!!😀\n<<Stop>>\n[i]Pilih Lanjut...[/i]",
 		"position": {
-			"x": 569,
+			"x": 567,
 			"y": 348
 		},
 		"colorID": 0
